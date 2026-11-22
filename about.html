@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Про нас — Piano Coffee Сарни</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🎹</span>
+                <span class="logo-text">Piano Coffee</span>
+            </a>
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li><a href="index.html" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" class="active" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Меню та послуги</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="uk">UA</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1 data-i18n="about_page_title">Про кав’ярню Piano Coffee</h1>
+                <p data-i18n="about_page_subtitle">Музика смаку та затишок у кожній деталі</p>
+            </div>
+        </section>
+
+        <section class="section about-main">
+            <div class="container">
+                <div class="grid-2 align-center">
+                    <div class="about-text-content">
+                        <h2 data-i18n="about_heading">Наша історія та концепція</h2>
+                        <p data-i18n="about_p1">Piano Coffee — це унікальна та атмосферна кав’ярня у самому серце Сарн за адресою вул. Широка, 22, яка гармонійно поєднує сучасний міський стиль та затишну гостинність. Назва закладу та його концепція натхненні витонченою елегантністю музики та тонким смаком якісної кави, створюючи особливий простір для приємних зустрічей, роботи та відпочинку.</p>
+                        <p data-i18n="about_p2">У меню кав'ярні представлений широкий асортимент класичних та авторських кавових напоїв, приготованих професійними бариста з добірних зерен. Окрім виняткової кави, гості можуть насолодитися свіжою випічкою, вишуканими десертами та смачними ласощами, які ідеально доповнюють улюблений напій.</p>
+                        <p data-i18n="about_p3">Заклад здобув популярність серед місцевих мешканців та гостей міста завдяки своїй неперевершеній атмосфері, стильній музиці, естетичному інтер'єру та уважному сервісу. Це ідеальне місце, щоб зупинитись на хвильку, насолодитися моментом та відчути справжній ритм затишного життя у Сарнах.</p>
+                    </div>
+                    <div class="about-image-wrapper">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <div class="logo footer-logo">
+                    <span class="logo-icon">🎹</span>
+                    <span class="logo-text">Piano Coffee</span>
+                </div>
+                <p data-i18n="footer_desc">Затишна кав’ярня у Сарнах для найкращих моментів.</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_links_title">Швидкі посилання</h4>
+                <ul>
+                    <li><a href="index.html" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Меню та послуги</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footer_contacts_title">Контакти</h4>
+                <p>вул. Широка, 22, Сарни, 34500</p>
+                <p data-i18n="footer_hours">Пн-Нд: 08:00 - 21:00</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/piano_coffee_sarny/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                    <a href="https://www.google.com/maps/search/Piano+Coffee+%D0%A1%D0%B0%D1%80%D0%BD%D0%B8/" target="_blank" rel="noopener noreferrer">Google Maps</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 Piano Coffee. <span data-i18n="rights">Усі права захищені.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
